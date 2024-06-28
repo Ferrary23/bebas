@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prak4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<head>
+
+<style>
+    .from{
+        background-color: rgb(142, 255, 255);
+    }
+    input[type="text"],input[type="password"]{
+        border: none;
+        border-radius: 30px;
+        padding: 15px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        padding: 10px;
+    }
+
+    .user-input, .user-btn{
+        margin-bottom: 10px;
+    }
+    button{
+        border: none;
+        border-radius: 10px;
+        width: 100px;   
+        padding: 5px;
+        background-color: rgb(201, 135, 170);
+        color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        padding: 10px;
+    }
+    .user-input, .user-btn{
+        margin-bottom: 10px;
+    }
+    button{
+        border: none;
+        border-radius: 10px;
+        width: 100px;
+        padding: 5px;
+        background-color: rgb(201, 135, 179);
+        color: black;
+    }
+    button.hover{
+        cursor: pointer;
+        background-color: antiquewhite;
+        color: black;
+    }
+    body{
+ background-color: rgb(253, 0, 127);
+ text-align:center;
+ color:black;
+    }
+ </style>
+ </head>
+<body>
+    <nav>
+        <h1>MENU</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="biodata.html">About Me</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    <main>
+    <h1>Register Peserta</h1>
+   <form action="register">
+       <div class="user-input">
+           <input type="text"nama="username" id="" placeholder="username">
+       </div>
+       <div class="user-input">
+           <input type="text" name="nama_lengkap" id=""placeholder="nama lengkap">
+       </div>
+       <div class="user-input">
+        <input type="password" name="userpassword" id=""placeholder="password">
+        </div>
+        <div class="user-input">
+            <input type="text" name="userpassword" id=""placeholder="konfirmasi password">
+        </div>
+        <div class="user-btn">
+            <button type="submit">submit</button>
+            <button type="submit">reset</button>
+        </div>
+   </form>
+</main> 
+</body>
+</html>
